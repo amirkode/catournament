@@ -141,6 +141,7 @@ def interact(
 
     line = vreadline(process.stdout, verbose=verbose)
     if line.strip() != "":
+        print("line:", line)
         raise WrongAnswer("Terdapat keluaran berlebih dari program peserta")
 
 
